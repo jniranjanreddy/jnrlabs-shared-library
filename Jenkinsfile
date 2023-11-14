@@ -22,7 +22,7 @@ pipeline {
              sh "echo This is for Ramesh"
              echo "${BUILD_NUMBER}"
              echo "${CURRENTDATE}"
-	     echo "${environment }"
+	     echo "{environment}"
              echo "${Server}"
             }
         }
