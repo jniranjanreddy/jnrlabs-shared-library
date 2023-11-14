@@ -1,0 +1,4 @@
+// Jenkinsfile
+@Library('jnrlabs-shared-library') _
+myFunction("Value 1", "Value 2")
+anotherFunction()
